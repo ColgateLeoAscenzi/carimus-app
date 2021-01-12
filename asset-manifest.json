@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/carimus-app/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/carimus-app/static/js/main.dd0756fc.chunk.js",
-    "main.js.map": "/carimus-app/static/js/main.dd0756fc.chunk.js.map",
+    "main.css": "/carimus-app/static/css/main.8de49daa.chunk.css",
+    "main.js": "/carimus-app/static/js/main.bca99f51.chunk.js",
+    "main.js.map": "/carimus-app/static/js/main.bca99f51.chunk.js.map",
     "runtime-main.js": "/carimus-app/static/js/runtime-main.083816bc.js",
     "runtime-main.js.map": "/carimus-app/static/js/runtime-main.083816bc.js.map",
-    "static/js/2.857233dd.chunk.js": "/carimus-app/static/js/2.857233dd.chunk.js",
-    "static/js/2.857233dd.chunk.js.map": "/carimus-app/static/js/2.857233dd.chunk.js.map",
+    "static/js/2.efc9fedf.chunk.js": "/carimus-app/static/js/2.efc9fedf.chunk.js",
+    "static/js/2.efc9fedf.chunk.js.map": "/carimus-app/static/js/2.efc9fedf.chunk.js.map",
     "static/js/3.c9952f81.chunk.js": "/carimus-app/static/js/3.c9952f81.chunk.js",
     "static/js/3.c9952f81.chunk.js.map": "/carimus-app/static/js/3.c9952f81.chunk.js.map",
     "index.html": "/carimus-app/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/carimus-app/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.857233dd.chunk.js.LICENSE.txt": "/carimus-app/static/js/2.857233dd.chunk.js.LICENSE.txt"
+    "static/css/main.8de49daa.chunk.css.map": "/carimus-app/static/css/main.8de49daa.chunk.css.map",
+    "static/js/2.efc9fedf.chunk.js.LICENSE.txt": "/carimus-app/static/js/2.efc9fedf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.083816bc.js",
-    "static/js/2.857233dd.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.dd0756fc.chunk.js"
+    "static/js/2.efc9fedf.chunk.js",
+    "static/css/main.8de49daa.chunk.css",
+    "static/js/main.bca99f51.chunk.js"
   ]
 }
