@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/carimus-app/static/css/main.8de49daa.chunk.css",
-    "main.js": "/carimus-app/static/js/main.bca99f51.chunk.js",
-    "main.js.map": "/carimus-app/static/js/main.bca99f51.chunk.js.map",
-    "runtime-main.js": "/carimus-app/static/js/runtime-main.083816bc.js",
-    "runtime-main.js.map": "/carimus-app/static/js/runtime-main.083816bc.js.map",
-    "static/js/2.efc9fedf.chunk.js": "/carimus-app/static/js/2.efc9fedf.chunk.js",
-    "static/js/2.efc9fedf.chunk.js.map": "/carimus-app/static/js/2.efc9fedf.chunk.js.map",
-    "static/js/3.c9952f81.chunk.js": "/carimus-app/static/js/3.c9952f81.chunk.js",
-    "static/js/3.c9952f81.chunk.js.map": "/carimus-app/static/js/3.c9952f81.chunk.js.map",
+    "main.css": "/carimus-app/static/css/main.60ba0e6e.chunk.css",
+    "main.js": "/carimus-app/static/js/main.9cb883da.chunk.js",
+    "main.js.map": "/carimus-app/static/js/main.9cb883da.chunk.js.map",
+    "runtime-main.js": "/carimus-app/static/js/runtime-main.68e2d38f.js",
+    "runtime-main.js.map": "/carimus-app/static/js/runtime-main.68e2d38f.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/carimus-app/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.5048f83c.chunk.js": "/carimus-app/static/js/2.5048f83c.chunk.js",
+    "static/js/2.5048f83c.chunk.js.map": "/carimus-app/static/js/2.5048f83c.chunk.js.map",
+    "static/js/3.46a2290f.chunk.js": "/carimus-app/static/js/3.46a2290f.chunk.js",
+    "static/js/3.46a2290f.chunk.js.map": "/carimus-app/static/js/3.46a2290f.chunk.js.map",
     "index.html": "/carimus-app/index.html",
-    "static/css/main.8de49daa.chunk.css.map": "/carimus-app/static/css/main.8de49daa.chunk.css.map",
-    "static/js/2.efc9fedf.chunk.js.LICENSE.txt": "/carimus-app/static/js/2.efc9fedf.chunk.js.LICENSE.txt"
+    "static/css/2.ae9f1eb3.chunk.css.map": "/carimus-app/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.60ba0e6e.chunk.css.map": "/carimus-app/static/css/main.60ba0e6e.chunk.css.map",
+    "static/js/2.5048f83c.chunk.js.LICENSE.txt": "/carimus-app/static/js/2.5048f83c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.083816bc.js",
-    "static/js/2.efc9fedf.chunk.js",
-    "static/css/main.8de49daa.chunk.css",
-    "static/js/main.bca99f51.chunk.js"
+    "static/js/runtime-main.68e2d38f.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.5048f83c.chunk.js",
+    "static/css/main.60ba0e6e.chunk.css",
+    "static/js/main.9cb883da.chunk.js"
   ]
 }
