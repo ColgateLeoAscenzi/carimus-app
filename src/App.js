@@ -1,11 +1,29 @@
 import './App.css';
 import NavbarComp from "./components/NavbarComp/NavbarComp";
+import Footer from "./components/Footer/Footer";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import AboutPage from "./pages/AboutPage";
+import CareersPage from "./pages/CareersPage";
+import ContactPage from "./pages/ContactPage";
+import NewsPage from "./pages/NewsPage";
+import ServicesPage from "./pages/ServicesPage";
+import WorkPage from "./pages/WorkPage";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Router>
         <NavbarComp></NavbarComp>
+          <Switch>
+            <Route path="/about" component={AboutPage}/>
+            <Route path="/work" component={WorkPage}/>
+            <Route path="/services" component={ServicesPage}/>
+            <Route path="/careers" component={CareersPage}/>
+            <Route path="/news" component={NewsPage}/>
+            <Route path="/contact" component={ContactPage}/>
+          </Switch>
+        </Router>
       </header>
     </div>
   );

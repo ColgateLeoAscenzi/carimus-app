@@ -43,3 +43,9 @@ a:active,a:hover{
 .navbar-nav .show .dropdown-menu {
   background-color:#160b43;
 }
+
+.blankComponentClass{
+  color:red;
+  height:80vh;
+  text-align: center;
+}
