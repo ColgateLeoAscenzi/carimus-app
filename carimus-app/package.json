@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "author": "Leonardo Ascenzi",
   "private": true,
+  "proxy": "http://backend:5000",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
