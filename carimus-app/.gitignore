@@ -19,6 +19,9 @@
 .env.production.local
 /carimus-app/.env
 /server/.env
+/carimus-app/ca_bundle.crt
+/carimus-app/certificate.crt
+/carimus-app/private.key
 
 npm-debug.log*
 yarn-debug.log*
