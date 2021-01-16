@@ -1,10 +1,9 @@
 {
-  "homepage": "https://colgateleoascenzi.github.io/carimus-app",
   "name": "carimus-app",
   "version": "0.1.0",
   "author": "Leonardo Ascenzi",
   "private": true,
-  "proxy": "http://backend:5000",
+  "homepage": "http://localhost",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
@@ -18,6 +17,8 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.7",
     "bootstrap": "^4.5.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",

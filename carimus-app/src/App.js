@@ -3,7 +3,7 @@ import './App.css';
 import React, {useState, useEffect} from 'react';
 
 import NavbarComp from "./components/NavbarComp/NavbarComp";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import AboutPage from "./pages/AboutPage";
 import CareersPage from "./pages/CareersPage";
@@ -27,7 +27,7 @@ function App() {
       setResponse(data);
 
       return () => socket.disconnect();
-      
+
     });
   }, []);
   
