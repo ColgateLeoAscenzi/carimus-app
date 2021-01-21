@@ -12,23 +12,15 @@ import NewsPage from "./pages/NewsPage";
 import ServicesPage from "./pages/ServicesPage";
 import WorkPage from "./pages/WorkPage";
 
-
-import socketIOClient from "socket.io-client";
-const ENDPOINT = "http://localhost:5000";
-
 function App() {
 
-  const [response, setResponse] = useState("");
-
+  const fetchItems = async () => {
+    const data = await fetch("http://localhost:5000/test");
+    const items = await data.json();
+    console.log(items);
+  }
   useEffect(() => {
-    const socket = socketIOClient(ENDPOINT);
-    socket.on("welcome", data => {
-      console.log(data);
-      setResponse(data);
-
-      return () => socket.disconnect();
-
-    });
+    fetchItems();
   }, []);
   
 

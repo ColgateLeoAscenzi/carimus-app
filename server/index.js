@@ -5,6 +5,8 @@ var http = require('http').createServer(app);
 var path = require('path');
 cors = require('cors');
 const Pool = require('pg').Pool;
+require('dotenv').config();
+console.log(process.env.POSTGRES_USER,process.env.POSTGRES_HOST,process.env.POSTGRES_DB,process.env.POSTGRES_PASS,process.env.POSTGRES_PORT);
 const pool = new Pool({
     user: process.env.POSTGRES_USER,
     host: process.env.POSTGRES_HOST,
@@ -13,25 +15,39 @@ const pool = new Pool({
     port: process.env.POSTGRES_PORT,
 });
 
-const io = require('socket.io')(http, {
-    cors: {
-      origins: ["http://localhost:3000","http://136.56.172.0/", "http://leoascenzi.com", "http://www.leoascenzi.com"],
-      methods: ["GET", "POST"]
-    }
-  });
 
 app.use(cors());
+
 app.get('/', function(req, res){
     res.send('hello world');
 });
 
 
-http.listen(process.env.PORT || 5000, function(){
+app.listen(process.env.PORT || 5000, function(){
     console.log('listening on *:5000');
 });
 
+const testReq = () => {
+    return new Promise(function(resolve, reject){
+        pool.query('SELECT * FROM workerinfo', (error, results) => {
+            if(error){
+                reject(error);
+            }
+            if(results){
+                resolve(results.rows);
+            }
+            else{
+                console.log(error,results);
+            }
+        });
+    });
+}
 
-io.on('connection', (socket) => {
-    console.log("Client connected");
-    socket.emit('welcome', "Welcome, I'm glad you are here");
-});
+
+app.get('/test', (req, res) =>{
+    testReq()
+        .then(response => {
+            res.status(200).send(response);
+        }).catch(error => res.status(500).send(error))
+})
+

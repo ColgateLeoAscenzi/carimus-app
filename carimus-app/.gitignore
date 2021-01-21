@@ -18,7 +18,7 @@
 .env.test.local
 .env.production.local
 .env
-../server/.env
+./server/.env
 ca_bundle.crt
 certificate.crt
 private.key
