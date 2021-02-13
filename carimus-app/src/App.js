@@ -15,7 +15,7 @@ import WorkPage from "./pages/WorkPage";
 function App() {
 
   const fetchItems = async () => {
-    const data = await fetch("http://localhost:5000/test");
+    const data = await fetch("http://leoascenzi.com:5000/test");
     const items = await data.json();
     console.log(items);
   }

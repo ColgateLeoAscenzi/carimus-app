@@ -30,3 +30,5 @@ services:
             - POSTGRES_USER=postgres
             - POSTGRES_PASSWORD=postgres
             - POSTGRES_DB=carimus_db
+        volumes:
+            - ./database/data:/docker-entrypoint-initdb.d/
