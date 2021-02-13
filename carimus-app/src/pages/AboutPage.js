@@ -1,15 +1,13 @@
-import './../App.css';
-import Footer from "./../components/Footer/Footer";
+import "./../App.css";
+import Footer from "../components/Footer";
 import BlankComponent from "./../components/BlankComponent";
 
 function AboutPage() {
-
   return (
-
     <div className="AboutPage">
-        <BlankComponent/>
-        About Page
-        <Footer/>
+      <BlankComponent />
+      About Page
+      <Footer />
     </div>
   );
 }
