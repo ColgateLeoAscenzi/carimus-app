@@ -11,6 +11,8 @@ import ContactPage from "./pages/ContactPage";
 import NewsPage from "./pages/NewsPage";
 import ServicesPage from "./pages/ServicesPage";
 import WorkPage from "./pages/WorkPage";
+import Footer from "./components/Footer/Footer";
+import BlankComponent from "./components/BlankComponent";
 
 function App() {
   const fetchItems = async () => {
@@ -37,6 +39,8 @@ function App() {
           </Switch>
         </Router>
       </header>
+      <BlankComponent />
+      <Footer />
     </div>
   );
 }
