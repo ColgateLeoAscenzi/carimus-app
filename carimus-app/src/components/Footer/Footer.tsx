@@ -13,7 +13,8 @@ import RightSection from "./RightSection";
 
 
 const footerWrapperStyle: CSSProperties = {
-    backgroundColor: "#78E690",
+    // backgroundColor: "#78E690",
+    backgroundImage: "url(https://carimus.com///wp-content/uploads/2020/02/bg-footer.png)",
     width: "100vw",
     height: "75vh",
     display: "flex",
@@ -25,7 +26,7 @@ const footerWrapperStyle: CSSProperties = {
 }
 
 const innerFooterWrapper: CSSProperties = {
-    backgroundColor: "#78E690",
+    // backgroundColor: "#78E690",
     width: "100%",
     height: "100%",
     display: "flex",
@@ -45,7 +46,7 @@ const Footer:React.FunctionComponent = () => {
                 <MiddleSection/>
                 <RightSection/>
             </div>
-            <div style = {{width: "99%", textAlign: "center", marginTop: "2vw", padding: "1vw", color: "#160B43", fontWeight: "bolder"}}>
+            <div style = {{width: "99%", textAlign: "center", marginTop: "2vw", padding: "1vw", color: "#160B43", fontWeight: "bolder", }}>
                 2021 Leo Ascenzi | Terms & Conditions | Designed by Leo Ascenzi
             </div>
         </div>
