@@ -11,6 +11,7 @@ import ContactPage from "./pages/ContactPage";
 import NewsPage from "./pages/NewsPage";
 import ServicesPage from "./pages/ServicesPage";
 import WorkPage from "./pages/WorkPage";
+import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer/Footer";
 import BlankComponent from "./components/BlankComponent";
 
@@ -30,6 +31,7 @@ function App() {
         <Router>
           <NavbarComp></NavbarComp>
           <Switch>
+            <Route path="/" component={HomePage} exact />
             <Route path="/about" component={AboutPage} />
             <Route path="/work" component={WorkPage} />
             <Route path="/services" component={ServicesPage} />
@@ -39,8 +41,6 @@ function App() {
           </Switch>
         </Router>
       </header>
-      <BlankComponent />
-      <Footer />
     </div>
   );
 }
