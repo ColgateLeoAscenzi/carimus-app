@@ -1,51 +1,54 @@
 .App {
   color: white;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #160b43;
+  overflow-x: hidden;
 }
 
-
-a, a:link, a:visited, a:focus{
-  color:white;
+a,
+a:link,
+a:visited,
+a:focus {
+  color: white;
 }
-a:active,a:hover{
-  color:#78E690;
+a:active,
+a:hover {
+  color: #78e690;
 }
 
-
-#CarimusLogo{
-  width:2.865vw;
+#CarimusLogo {
+  width: 2.865vw;
 }
-#Arimus{
-  font-size: calc(10px + 2vmin);  
-  color:#78E690;
+#Arimus {
+  font-size: calc(10px + 2vmin);
+  color: #78e690;
   font-weight: 700;
 }
 
-.navElem{
+.navElem {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 3.6px;
-  color:white!important;
+  color: white !important;
 }
-.navElem:hover{
-  color:#78E690!important;
+.navElem:hover {
+  color: #78e690 !important;
 }
 
-#dropdown-nav{
-  color:white;
-  background-color:#160b43;
+#dropdown-nav {
+  color: white;
+  background-color: #160b43;
 }
 
 .navbar-nav .show .dropdown-menu {
-  background-color:#160b43;
+  background-color: #160b43;
 }
 
-.blankComponentClass{
-  color:red;
-  height:80vh;
+.blankComponentClass {
+  color: red;
+  height: 80vh;
   text-align: center;
 }

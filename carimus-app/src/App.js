@@ -16,14 +16,14 @@ import Footer from "./components/Footer/Footer";
 import BlankComponent from "./components/BlankComponent";
 
 function App() {
-  const fetchItems = async () => {
-    const data = await fetch("http://leoascenzi.com:5000/test");
-    const items = await data.json();
-    console.log(items);
-  };
-  useEffect(() => {
-    fetchItems();
-  }, []);
+  // const fetchItems = async () => {
+  //   const data = await fetch("http://leoascenzi.com:5000/test");
+  //   const items = await data.json();
+  //   console.log(items);
+  // };
+  // useEffect(() => {
+  //   fetchItems();
+  // }, []);
 
   return (
     <div className="App">
