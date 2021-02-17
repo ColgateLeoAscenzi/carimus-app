@@ -25,14 +25,14 @@ const upperStyle: CSSProperties = {
 const lowerStyle: CSSProperties = {
   display: "flex",
   flexDirection: "column",
-  paddingLeft: "15vw",
+  paddingLeft: "13vw",
 };
 
 type items = {
   name: String;
   position: String;
   description: String;
-  image_url: String;
+  image_link: String;
 };
 const AboutCrew: React.FunctionComponent = () => {
   const fetchItems = async () => {
@@ -67,10 +67,11 @@ const AboutCrew: React.FunctionComponent = () => {
             {profileData.map((item, i) => {
               return (
                 <Profile
+                  key={i}
                   name={item.name}
-                  position={item.name}
-                  description={item.name}
-                  image_url={item.name}
+                  position={item.position}
+                  description={item.description}
+                  image_link={item.image_link}
                 />
               );
             })}
