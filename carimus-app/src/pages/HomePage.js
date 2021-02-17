@@ -1,6 +1,7 @@
 import "./../App.css";
 import Footer from "../components/Footer/Footer";
 import PicCarousel from "../components/PicCarousel";
+import LogoWrapper from "../components/logoWrapper/LogoWrapper";
 import { motion } from "framer-motion";
 
 const firstSection = {
@@ -124,7 +125,7 @@ function HomePage() {
           <div
             style={{
               width: "100vw",
-              height: "32%",
+              height: "10%",
               justifyContent: "center",
               display: "flex",
               textAlign: "center",
@@ -142,7 +143,7 @@ function HomePage() {
               </span>
             </div>
           </div>
-          <div style={{ width: "100vw", height: "32%" }}> like these</div>
+          <LogoWrapper />
         </div>
         <Footer />
       </div>
