@@ -37,9 +37,9 @@ type items = {
 const AboutCrew: React.FunctionComponent = () => {
   const fetchItems = async () => {
     // Production
-    // const data = await fetch("http://leoascenzi.com:5000/test");
+    const data = await fetch("http://leoascenzi.com:5000/test");
     //Dev
-    const data = await fetch("http://localhost:5000/test");
+    // const data = await fetch("http://localhost:5000/test");
     const items = await data.json();
     console.log(items);
     setProfileData(items);
