@@ -1,7 +1,9 @@
 import "./../App.css";
 import Footer from "../components/Footer/Footer";
-import BlankComponent from "./../components/BlankComponent";
+import AboutTop from "../components/AboutContent/AboutTop";
+import AboutMiddle from "../components/AboutContent/AboutMiddle";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 function AboutPage() {
   const fetchItems = async () => {
@@ -19,10 +21,8 @@ function AboutPage() {
   return (
     <>
       <div className="AboutPage">
-        {/* <BlankComponent />
-         */}
-        <div style={{ width: "100vw", height: "90vh" }}>About Page</div>
-
+        <AboutTop />
+        <AboutMiddle />
         <Footer />
       </div>
     </>
